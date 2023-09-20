@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact-form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="hero">
+    
+    <form>
+      <div class="row">
+       <div class="input-group">
+        <input type="text" id="name" required>
+        <label for="name"><i class="fa-solid fa-user"></i> Your name</label>
+       </div>
+
+       <div class="input-group">
+        <input type="text" id="number" required>
+        <label for="number"><i class="fa-solid fa-phone-volume"></i> Phone no.</label>
+       </div>
+      </div>
+       <div class="input-group">
+        <input type="text" id="email" required>
+        <label for="email"><i class="fa-solid fa-envelope"></i> Your Email Id</label>
+       </div>
+
+       <div class="input-group">
+      <textarea id="message" rows="8" required></textarea>
+        <label for="message"><i class="fa-solid fa-comment-dots"></i> Your message</label>
+       </div>
+       <button type="submit"><i class="fa-regular fa-paper-plane"></i> Submit</button>
+    </form>
+
+  </div>
+  
+</body>
+</html>
